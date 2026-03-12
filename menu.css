@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #292929;
+}
+
+.jaro {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu {
+    height: 5.5rem;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.lista-menu {
+    background-color: #111111;
+    position: fixed;
+    margin-top: 4rem;
+    margin-left: -1rem;
+    border-radius: 5px;
+    display: none;
+}
+
+.lista-menu ul {
+    padding: 10px;
+}
+
+.lista-menu ul li {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.lista-menu ul li button {
+    color: #fff;
+    font-size: 20px;
+}
+
+.lista-menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.lista-menu ul li:hover {
+    background-color: #525252;
+    cursor: pointer;
+}
+
+.lista-menu ul li button {
+    color: #fff;
+    font-size: 20px;
+}
+
+.lista_menu_mobile {
+    display: none;
+}
+
+.lista-linguagem-mobile ul {
+    list-style-type: none;
+}
+
+.menu-logo {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.menu-logo button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-logo h2 {
+    font-family: "Jersey 10", sans-serif;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 2rem;
+}
+
+.menu-links {
+    margin-left: 1rem;
+}
+
+.menu-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 1rem;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.menu-links a:hover {
+    background-color: #525252;
+}
+
+.menu-login {
+    padding-left: 40rem;
+}
+
+.menu-login button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.menu-login .linguagem {
+    background-color: #292929;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-login .linguagem:hover {
+    background-color: #525252;
+}
+
+.lista-linguagem {
+    position: fixed;
+    background-color: #111111;
+    border-radius: 5px;
+    margin-left: 1rem;
+    display: none;
+}
+
+.lista-linguagem ul {
+    list-style-type: none;
+}
+
+.lista-linguagem ul li {
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+    border: 1px solid #525252;
+    cursor: pointer;
+}
+
+.lista-linguagem ul li:hover {
+    background-color: #292929;
+}
+
+.lista-linguagem-mobile {
+    display: none;
+}
+
+@media (max-width: 425px) {
+
+    .menu-logo h2 {
+        margin-left: 4rem;
+    }
+
+    .lista_menu_mobile {
+        display: block;
+    }
+
+    .menu-links {
+        display: none;
+    }
+
+    .menu-login {
+        display: none;
+    }
+}

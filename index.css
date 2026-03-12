@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+
+.header header h1 {
+    color: #fff;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 60px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.header div h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 0.5rem;
+}
+
+.header div {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.header div a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: 57.6rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header div a:hover {
+    background-color: #525252;
+}
+
+.header div a img {
+    rotate: 270deg;
+    margin-top: 2px;
+}
+
+.jogos-index {
+    margin-left: 10%;
+}
+
+.jogos-index img {
+    margin-top: 2px;
+    margin-left: 2.5rem;
+}
+
+.jogos-index img:hover {
+    border: 2px solid #fff;
+    margin-left: 2.4rem;
+    margin-top: -2px;
+    margin-right: -2px;
+}
